@@ -38,8 +38,6 @@ int main()
             strcpy(result+find_loc(result,cat), cat);
             printf("final:%s\n",result);
         }
-        char str1[128] = "ppqppqqqqppppqqqpppppqqqqqppppqqqppppqqpppqqqqqqppppqpqqpqqpqpqqpppqqpppqpppqqpqpqqqqqppqpqpppppqpabcdefg";
-        printf("***********%d\n",strcmp(result, str1));
     }
     return 0;
 }
